@@ -7,12 +7,21 @@ authors:
     given-names: Kota
     affiliation: "Okayama University"
     orcid: "https://orcid.org/0009-0002-8111-9021"
+abstract: >-
+  adaptFVC is an application for calculating fractional vegetation cover (FVC)
+  from visible-light (RGB) images of crop canopies. The user clicks plant and
+  soil pixels on a few images, and adaptFVC trains a Random Forest classifier
+  on the CIELAB colour of those pixels and labels every pixel of every image in
+  the folder as plant or soil. A separate model is meant to be built for each
+  set of images taken in the same field, on the same day, with the same camera.
 version: "3.2.0"
+date-released: "2026-11-10"
+repository-code: "https://github.com/KotaNakajima/adaptFVC"
 license: GPL-3.0-or-later
-# repository-code: TODO (public GitHub URL)
-# date-released: TODO (YYYY-MM-DD of the first public release)
-# doi: TODO (Zenodo concept DOI, after the first release)
+# doi: the Zenodo concept DOI will be added after the first release
 keywords:
   - fractional vegetation cover
   - image segmentation
   - plant phenotyping
+  - random forest
+  - crop canopy
