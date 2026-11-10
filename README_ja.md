@@ -1,5 +1,7 @@
 # adaptFVC
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24108041.svg)](https://doi.org/10.5281/zenodo.24108041)
+
 [English](README.md) | 日本語
 
 adaptFVC は、作物群落を撮影した可視画像から植被率を計算するためのアプリです。機械学習に基づく分類モデルを手軽に自分で構築し、多くの画像を一括で処理することができます。分類モデルは、同一圃場・同一日・同一カメラ由来の画像セットごとに構築することをお勧めします。
@@ -102,7 +104,9 @@ Windows 用の実行ファイルには他のライブラリも同梱していま
 
 ## 引用
 
-adaptFVC を使った場合は、`CITATION.cff` の情報で引用してください（GitHub のページでは「Cite this repository」として表示されます）。DOI は、最初のリリースを Zenodo に保存したあとに記載します。
+adaptFVC を使った場合は、`CITATION.cff` の情報で引用してください（GitHub のページでは「Cite this repository」として表示されます）。DOI は [10.5281/zenodo.24108041](https://doi.org/10.5281/zenodo.24108041) です。すべての版をまとめた DOI で、常に最新版を指します。版ごとの DOI は Zenodo のページに載っています。
+
+例: Nakajima, K. (2026). adaptFVC (Version 3.2.0) [Computer software]. https://doi.org/10.5281/zenodo.24108041
 
 方法の節には、少なくとも次を書いてください: adaptFVC の版、縮小サイズ、モデルを作った単位（例: 撮影日ごと）、`run_metadata.json` に記録された scikit-learn の版。分類器の設定（Random Forest、決定木 200 本、乱数のシード値 42、CIELAB の特徴量）は固定です。
 結果を再現できるように、教師点のファイル（結果フォルダの `annotations_<日時>.json`）を補足資料として公開してください。このファイルから同じモデルを作り直せます。書き方の例は取扱説明書の第11章にあります。

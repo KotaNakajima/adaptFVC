@@ -1,5 +1,7 @@
 # adaptFVC
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24108041.svg)](https://doi.org/10.5281/zenodo.24108041)
+
 English | [日本語](README_ja.md)
 
 adaptFVC is an application for calculating fractional vegetation cover (FVC) from visible-light (RGB) images of crop canopies.
@@ -107,7 +109,10 @@ The Windows executable also contains third-party libraries. Their licenses are c
 
 ## Citation
 
-If you use adaptFVC, please cite it with the metadata in `CITATION.cff` (GitHub shows it as "Cite this repository"). A DOI will be added after the first archived release.
+If you use adaptFVC, please cite it with the metadata in `CITATION.cff` (GitHub shows it as "Cite this repository").
+The DOI [10.5281/zenodo.24108041](https://doi.org/10.5281/zenodo.24108041) covers all versions and always resolves to the latest one. The DOI of each version is listed on the Zenodo page.
+
+Example: Nakajima, K. (2026). adaptFVC (Version 3.2.0) [Computer software]. https://doi.org/10.5281/zenodo.24108041
 
 For the methods section, report at least the version of adaptFVC, the downscaling size, the unit for which each model was built (for example, each imaging date), and the scikit-learn version recorded in `run_metadata.json`. The classifier settings (Random Forest with 200 trees, random seed 42, CIELAB features) are fixed.
 To make the results reproducible, please also share the training-point file (`annotations_<date>_<time>.json` in the result folder) as supplementary material. The same model can be rebuilt from this file. Chapter 11 of the manual gives an example sentence.
