@@ -1,0 +1,265 @@
+{
+ "alpha_alpha_0_png_cov": 26.55217965653897,
+ "alpha_alpha_0_png_cov_no_valid": 10.904947916666668,
+ "alpha_alpha_0_png_result_img": {
+  "dtype": "uint8",
+  "sha1": "c294f8a599e069d1c7f7f8a3b06a04221340c858",
+  "shape": [
+   96,
+   96,
+   3
+  ],
+  "sum": 3097962.0
+ },
+ "alpha_alpha_0_png_valid": {
+  "dtype": "bool",
+  "sha1": "55af4314777eb58d3450989f4c589e0fba8a40e5",
+  "shape": [
+   96,
+   96
+  ],
+  "sum": 3785.0
+ },
+ "alpha_alpha_0_png_vf": 41.0699,
+ "alpha_alpha_1_tif_cov": 47.26552179656539,
+ "alpha_alpha_1_tif_cov_no_valid": 19.41189236111111,
+ "alpha_alpha_1_tif_result_img": {
+  "dtype": "uint8",
+  "sha1": "9d8981e7a99fa571cf12f5ca4bce20f82a0f6a5e",
+  "shape": [
+   96,
+   96,
+   3
+  ],
+  "sum": 3095672.0
+ },
+ "alpha_alpha_1_tif_valid": {
+  "dtype": "bool",
+  "sha1": "55af4314777eb58d3450989f4c589e0fba8a40e5",
+  "shape": [
+   96,
+   96
+  ],
+  "sum": 3785.0
+ },
+ "alpha_alpha_1_tif_vf": 41.0699,
+ "alpha_skipped_points": 1,
+ "bundle_annotations_roundtrip": true,
+ "bundle_predict_equal": true,
+ "bundle_usable": true,
+ "coverage_exg": 2.579752604166667,
+ "exg2_mask": {
+  "dtype": "bool",
+  "sha1": "c64101e9a97fa7925a5a81eed6a20d7ad2eb0aa5",
+  "shape": [
+   96,
+   128
+  ],
+  "sum": 317.0
+ },
+ "exg2_thr": 53.0,
+ "exg_mask": {
+  "dtype": "bool",
+  "sha1": "c64101e9a97fa7925a5a81eed6a20d7ad2eb0aa5",
+  "shape": [
+   96,
+   128
+  ],
+  "sum": 317.0
+ },
+ "exg_thr": 53.0,
+ "feat_All_False": {
+  "dtype": "uint8",
+  "sha1": "aaf6e8e63a02348ad12a9a32081f96178cec4ee3",
+  "shape": [
+   12288,
+   9
+  ],
+  "sum": 8751413.0
+ },
+ "feat_All_True": {
+  "dtype": "uint8",
+  "sha1": "5c381649d93266d302a2860bea6cf645a73f4e76",
+  "shape": [
+   12288,
+   10
+  ],
+  "sum": 9142169.0
+ },
+ "feat_HSV_False": {
+  "dtype": "uint8",
+  "sha1": "b4b3e21d6deac4b62a2e92dfb34dbae1f0a906ab",
+  "shape": [
+   12288,
+   3
+  ],
+  "sum": 2424206.0
+ },
+ "feat_HSV_True": {
+  "dtype": "uint8",
+  "sha1": "d3bd49ff4e5946386ba3f2d5c6870e21333097e1",
+  "shape": [
+   12288,
+   4
+  ],
+  "sum": 2814962.0
+ },
+ "feat_Lab_False": {
+  "dtype": "uint8",
+  "sha1": "f8d733cc5fba2d9216fb7f89f4a0be36ee41ce18",
+  "shape": [
+   12288,
+   3
+  ],
+  "sum": 4095431.0
+ },
+ "feat_Lab_True": {
+  "dtype": "uint8",
+  "sha1": "1dd2b0c6e6766c1581fc8ac54be29db2ecf2a4f1",
+  "shape": [
+   12288,
+   4
+  ],
+  "sum": 4486187.0
+ },
+ "legacy_kind": "legacy",
+ "legacy_points": [
+  20,
+  20
+ ],
+ "legacy_usable": false,
+ "original_name": [
+  "IMG_0001.JPG",
+  "plot_01.png",
+  "a.tif"
+ ],
+ "overlay": {
+  "dtype": "uint8",
+  "sha1": "093d3424fbc3a5152571fb789f3a8e4849c0416a",
+  "shape": [
+   96,
+   128,
+   4
+  ],
+  "sum": 106195.0
+ },
+ "overlay_col": {
+  "dtype": "uint8",
+  "sha1": "5d256618eaf56a1a5d62fe2c128796a32de5d945",
+  "shape": [
+   96,
+   128,
+   4
+  ],
+  "sum": 118875.0
+ },
+ "portable_remap": [
+  3,
+  0
+ ],
+ "rep_count": [
+  5,
+  10,
+  10,
+  10,
+  50,
+  50
+ ],
+ "rep_sel": [
+  "img_00.png",
+  "img_09.png",
+  "img_04.png",
+  "img_07.png"
+ ],
+ "resize_alpha_mode": "RGBA",
+ "resize_alpha_size": [
+  48,
+  48
+ ],
+ "rf_cov": 96.42740885416666,
+ "rf_mask": {
+  "dtype": "bool",
+  "sha1": "d7b598babd50fbfa5068c126dbe92db3011ebb97",
+  "shape": [
+   96,
+   128
+  ],
+  "sum": 11849.0
+ },
+ "rf_v3_cov": 2.579752604166667,
+ "rf_v3_deterministic": true,
+ "rf_v3_mask": {
+  "dtype": "bool",
+  "sha1": "c64101e9a97fa7925a5a81eed6a20d7ad2eb0aa5",
+  "shape": [
+   96,
+   128
+  ],
+  "sum": 317.0
+ },
+ "train_X": {
+  "dtype": "uint8",
+  "sha1": "da125c85e9c79dfbb9cbfad0e1307af78d65d8a7",
+  "shape": [
+   60,
+   3
+  ],
+  "sum": 23384.0
+ },
+ "train_stats": {
+  "n_failed_images": 0,
+  "n_images": 3,
+  "n_plant": 30,
+  "n_skipped_invalid": 0,
+  "n_soil": 30
+ },
+ "train_y": {
+  "dtype": "int64",
+  "sha1": "8e8fef0553ec1b96b76ebe4bd4aeb585d58105d7",
+  "shape": [
+   60
+  ],
+  "sum": 30.0
+ },
+ "v3_predict_mask_equals_old": true,
+ "worker_old_cov": 96.427409,
+ "worker_v3": [
+  [
+   "img_00.png",
+   2.579753,
+   null,
+   100.0
+  ],
+  [
+   "img_01.png",
+   3.068034,
+   null,
+   100.0
+  ],
+  [
+   "img_02.png",
+   3.588867,
+   null,
+   100.0
+  ],
+  [
+   "alpha_0.png",
+   26.55218,
+   null,
+   41.0699
+  ],
+  [
+   "alpha_1.tif",
+   47.265522,
+   null,
+   41.0699
+  ]
+ ],
+ "worker_v3_outputs": [
+  "alpha_0.png",
+  "alpha_1.tif",
+  "img_00.png",
+  "img_01.png",
+  "img_02.png"
+ ]
+}

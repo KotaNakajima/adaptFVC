@@ -1,0 +1,19 @@
+# Fully resolved versions used to build the Windows executable (runtime + PyInstaller).
+altgraph==0.17.5
+colorama==0.4.6
+et_xmlfile==2.0.0
+joblib==1.5.3
+numpy==2.2.2
+opencv-python==4.13.0.92
+openpyxl==3.1.5
+packaging==26.0
+pefile==2024.8.26
+pillow==13.0.0
+pyinstaller==6.19.0
+pyinstaller-hooks-contrib==2026.6
+pywin32-ctypes==0.2.3
+scikit-learn==1.8.0
+scipy==1.17.1
+setuptools==84.2.1
+threadpoolctl==3.6.0
+tqdm==4.67.1

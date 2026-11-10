@@ -1,0 +1,11 @@
+# Normalise line endings in the repository; check out with the platform default
+* text=auto
+
+# Shell scripts run on macOS, so always LF (CRLF breaks bash)
+*.sh text eol=lf
+
+# Binary files
+*.png binary
+*.ico binary
+*.icns binary
+*.pdf binary

@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using these metadata."
+title: "adaptFVC"
+type: software
+authors:
+  - family-names: Nakajima
+    given-names: Kota
+    affiliation: "Okayama University"
+    orcid: "https://orcid.org/0009-0002-8111-9021"
+version: "3.2.0"
+license: GPL-3.0-or-later
+# repository-code: TODO (public GitHub URL)
+# date-released: TODO (YYYY-MM-DD of the first public release)
+# doi: TODO (Zenodo concept DOI, after the first release)
+keywords:
+  - fractional vegetation cover
+  - image segmentation
+  - plant phenotyping
